@@ -23,8 +23,8 @@ export default function Home() {
       <ShopCollection />
       <NewArrivals />
       <CapTshirt />
-      {/*<Belief />
-      <BagCart />
+      <Belief />
+      {/*<BagCart />
       <Newsletter />
       <Footer /> */}
     </div>

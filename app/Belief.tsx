@@ -4,18 +4,18 @@ import Image from "next/image";
 
 function Belief() {
   return (
-    <div className="pl-40 relative flex md:flex-row items-center justify-center bg-gradient-to-r from-[#3B3B3B] to-black text-white p-8 h-[1056px] ">
+    <div className="h-auto relative pb-20 lg:pb-0 flex md:flex-row items-center justify-center bg-gradient-to-r from-[#3B3B3B] to-black text-white  lg:h-[1056px] ">
       <div className="absolute inset-0 flex justify-end items-center z-0">
-        <LogoVE className="lg:w-[571.39px] lg:h-[706.96px] text-red-700 opacity-10" />
+        <LogoVE className="w-[350px] md:w-[400px] lg:w-[571.39px] lg:h-[706.96px] text-red-700 opacity-10" />
       </div>
 
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2 z-20 text-center">
-        <h1 className="text-[140px] mt-[168px] text-nowrap heroText font-bold text-white">
+        <h1 className="text-[100px] lg:text-[140px] md:text-8xl mt-[168px] md:text-nowrap heroText font-bold text-white text-wrap">
           WHAT WE BELIEVE
         </h1>
       </div>
 
-      <div className="relative z-10 pt-20 w-[641px] h-[641px]">
+      <div className="relative z-10 md:pt-20 w-[641px] h-[641px] hidden lg:block">
         <Image
           src="/img/img (10).png"
           width={1000}
@@ -25,8 +25,8 @@ function Belief() {
         />
       </div>
 
-      <div className="relative pt-80 md:w-1/2 md:pl-8 z-10 ">
-        <div className="space-y-8 w-[743px] right-[335px]">
+      <div className="relative pt-[500px] md:pt-80 lg:pt-60 lg:pl-8 z-10 ">
+        <div className="px-10 lg:space-y-8 lg:w-[743px] lg:right-[335px]">
           <div>
             <span className="text-[32px] font-semibold mb-2">Leadership</span>{" "}
             is vital from the top of corporations to the military to small{" "}
@@ -61,7 +61,7 @@ function Belief() {
           <div className="border-t border-gray-300 w-full my-4"></div>
         </div>
       </div>
-      <div className="relative z-10 pt-[19.4rem] w-[158px] h-[435px]">
+      <div className="relative z-10 pt-[19.4rem] w-[158px] h-[435px] hidden lg:block pb-20">
         <Image
           src="/img/img (3).png"
           width={1000}

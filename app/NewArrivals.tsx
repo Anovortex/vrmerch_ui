@@ -35,7 +35,7 @@ const capsData = [
 function NewArrivals() {
   return (
     <div
-      className="bg-[#F6F5F5] relative w-full h-auto md:h-[877px] py-20 lg:py-[100px] text-black md:grid-cols-2 lg:grid-cols-4 justify-center text-center lg:text-left items-center mx-auto 
+      className="bg-[#F6F5F5] relative w-full h-auto lg:h-[877px] py-20 lg:py-[100px] text-black md:grid-cols-2 lg:grid-cols-4 justify-center text-center lg:text-left items-center mx-auto 
     lg:pl-[142px] lg:pr-16 "
     >
       <div>
