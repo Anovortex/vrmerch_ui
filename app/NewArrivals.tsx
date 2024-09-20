@@ -34,9 +34,14 @@ const capsData = [
 
 function NewArrivals() {
   return (
-    <div className="bg-[#F6F5F5] relative  w-full h-[877px] text-black flex flex-col gap-12 justify-center pl-[150px]  ">
+    <div
+      className="bg-[#F6F5F5] relative w-full h-auto md:h-[877px] py-20 lg:py-[100px] text-black md:grid-cols-2 lg:grid-cols-4 justify-center text-center lg:text-left items-center mx-auto 
+    lg:pl-[142px] lg:pr-16 "
+    >
       <div>
-        <div className="promo-text text-center pb-[48px]">new arrival</div>
+        <div className="font-montserrat uppercase pb-[48px] md:pt-20  lg:leading-[84px] lg:tracking-[0.5px] text-wrap text-5xl md:text-6xl lg:text-7xl font-semibold">
+          new arrival
+        </div>
         <Caps caps={capsData} />;
       </div>
     </div>

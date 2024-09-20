@@ -21,8 +21,8 @@ export default function Home() {
       <Book />
       <RandomDude />
       <ShopCollection />
-      {/*<NewArrivals />
-      <CapTshirt />
+      <NewArrivals />
+      {/*<CapTshirt />
       <Belief />
       <BagCart />
       <Newsletter />
