@@ -44,7 +44,7 @@ function Footer() {
         <div className="py-5 lg:py-0">
           © 2024 Valuetainment Store. All rights reserved.
         </div>
-        <div className=" w-[268px] flex flex-row gap-2">
+        <div className="pb-2 w-[268px] flex flex-row gap-2">
           <Visa2 />
           <ApplePay />
           <DinersClub />
