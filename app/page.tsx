@@ -25,8 +25,8 @@ export default function Home() {
       <CapTshirt />
       <Belief />
       <BagCart />
-      {/*<Newsletter />
-      <Footer /> */}
+      <Newsletter />
+      {/*<Footer /> */}
     </div>
   );
 }

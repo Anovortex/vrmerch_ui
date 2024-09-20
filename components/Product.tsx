@@ -87,7 +87,7 @@ function Product() {
         <FaLinkedinIn />
         <FaInstagram />
       </div>
-      <div className=" underline text-black pt-6 cursor-pointer  text-left md:px-10 lg:px-0 ">
+      <div className=" underline text-black pt-6 cursor-pointer  text-left md:px-10 lg:px-0 pb-10 ">
         View Details
       </div>
     </div>

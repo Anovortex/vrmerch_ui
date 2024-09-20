@@ -81,7 +81,7 @@ function BagCart() {
           ))}
           <FaArrowDown />
         </div>
-        <div>
+        <div className="">
           <Product />
         </div>
       </div>
