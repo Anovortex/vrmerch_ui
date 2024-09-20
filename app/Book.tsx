@@ -28,7 +28,7 @@ function Book() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:flex lg:justify-between relative">
-        <div className="relative z-10">
+        <div className="relative z-10  ">
           <Image
             src="/img/img (1).png"
             height={1000}
