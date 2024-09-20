@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../public/Font/Montserrat/Montserrat-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ActOfRejection";
+  src: url("../public/Font/act_of_rejection/Act_Of_Rejection.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../public/Font/Montserrat/static/Montserrat-SemiBold.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat Italic";
+  src: url("../public/Font/Montserrat/static/Montserrat-Italic.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+.font-montserrat-italic {
+  font-family: "Montserrat Italic", sans-serif;
+}
+
+.product-tag {
+  font-family: "Montserrat", sans-serif;
+}
+
+.logoText {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+.heroText {
+  font-family: "ActOfRejection", sans-serif;
+  font-weight: 400;
+}
+
+.Section-product {
+  font-family: "Montserrat", sans-serif;
+  line-height: 84px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+.promo-text {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  line-height: 84px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.text-outline {
+  text-shadow: -1px -1px 0 #272312, 1px -1px 0 #272312, -1px 1px 0 #272312,
+    1px 1px 0 #272312;
+}
+
+.promo-outline {
+  font-family: "Montserrat", sans-serif;
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 84px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #0000, -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+}
+.shop-collection {
+  font-family: "Montserrat", sans-serif;
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 84px;
+  letter-spacing: 0.5px;
+  text-align: left;
+
+  text-shadow: -1px -1px 0 #ffff, 1px -1px 0 #ffff, -1px 1px 0 #ffff,
+    1px 1px 0 #ffff;
+}
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.font-montserrat-normal {
+  font-family: "Montserrat", normal;
+}
+
+.font-weight-700 {
+  font-weight: 700;
+}
