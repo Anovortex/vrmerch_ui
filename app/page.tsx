@@ -20,8 +20,8 @@ export default function Home() {
       <SectionProduct />
       <Book />
       <RandomDude />
-      {/*<ShopCollection />
-      <NewArrivals />
+      <ShopCollection />
+      {/*<NewArrivals />
       <CapTshirt />
       <Belief />
       <BagCart />
