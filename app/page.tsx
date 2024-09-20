@@ -17,7 +17,7 @@ export default function Home() {
     <div className=" md:overflow-visible ">
       <Navbar />
       <Hero />
-      <SectionProduct />
+      {/* <SectionProduct />
       <Book />
       <RandomDude />
       <ShopCollection />
@@ -26,7 +26,7 @@ export default function Home() {
       <Belief />
       <BagCart />
       <Newsletter />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

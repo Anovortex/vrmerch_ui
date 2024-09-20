@@ -41,11 +41,11 @@ const carouselItems = [
 
 function Hero() {
   return (
-    <div className="md:pt-[70px] pt-[146px] relative">
-      <div className="lg:text-[140px] md:text-[70px] md:text-nowrap lg:text-wrap md:p-10 heroText opacity-40 lg:px-[150px] items-center ">
+    <div className="md:pt-[70px] pt-10 lg:pt-[146px] relative">
+      <div className="lg:text-[140px] md:text-8xl text-6xl pl-10 text-wrap  lg:text-wrap md:p-10 heroText opacity-40 lg:px-[150px] items-center ">
         future looks brights!
       </div>
-      <div className=" absolute md:top-[180px] lg:pt-[70px] left-0 w-full z-10">
+      <div className="absolute top-[100px] md:top-[180px] lg:top-[120px] pt-[80px] md:pt-[120px] lg:pt-[160px] left-0 w-full z-10">
         <Carousel carouselItems={carouselItems} />
       </div>
     </div>

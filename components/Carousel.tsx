@@ -39,11 +39,11 @@ const Carousel: React.FC<CarouselProps> = ({ carouselItems }) => {
   }, []);
 
   return (
-    <div className="carousel pl-52">
+    <div className="carousel pl-10 md:pl-32 lg:pl-52">
       <div className="carousel-track" ref={trackRef}>
         {carouselItems.map((item, index) => (
-          <div>
-            <div className="carousel-item w-[357px] h-[397px]   " key={index}>
+          <div key={index}>
+            <div className="carousel-item w-[250px] h-[300px] md:w-[300px] md:h-[350px] lg:w-[357px] lg:h-[397px]">
               <Image
                 src={item.itemImage}
                 width={1000}
@@ -52,11 +52,11 @@ const Carousel: React.FC<CarouselProps> = ({ carouselItems }) => {
                 className="w-full h-full object-cover rounded-[12px]"
               />
             </div>
-            <div className=" px-5">
+            <div className="px-2 md:px-4 lg:px-5">
               <div>{item.itemName}</div>
-              <div className=" flex flex-row gap-5">
+              <div className="flex flex-row gap-2 md:gap-4 lg:gap-5">
                 <div>{item.itemPrice}</div>
-                <div className=" line-through">{item.itemDisPrice}</div>
+                <div className="line-through">{item.itemDisPrice}</div>
               </div>
             </div>
           </div>
