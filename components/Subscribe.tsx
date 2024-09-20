@@ -2,7 +2,7 @@ import React from "react";
 
 function Subscribe() {
   return (
-    <div className=" pt-12 w-[530px] font-normal font-montserrat text-2xl leading-7 tracking-[0.5%]">
+    <div className="text-center items-center mx-auto pt-12 lg:w-[530px] font-normal font-montserrat text-2xl leading-7 tracking-[0.5%]">
       Subscribe and be the first to receive notifications about our upcoming
       releases and the latest news.
       <div className="mt-4 flex flex-col gap-3 pt-12">
