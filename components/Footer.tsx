@@ -14,7 +14,7 @@ import AE2 from "../public/Icon/amex 1.svg";
 
 function Footer() {
   return (
-    <div className="h-auto bg-black items-center mx-auto px-5 lg:px-36 lg:py-12 lg:h-[748px]">
+    <div className="h-auto bg-black items-center mx-auto px-5 lg:px-36 lg:pt-12 ">
       <div className="pb-5 lg:pb-5 flex flex-row items-center md:gap-5 gap-2  pt-5  ">
         <LogoVE className="lg:w-20 lg:h-20 md:w-32 md:h-32 w-16 h-16 fill-[#EA2127] " />
         <div className="logoText lg:text-[100px] md:text-[60px] text-[36px]">

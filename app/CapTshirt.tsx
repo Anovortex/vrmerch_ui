@@ -21,7 +21,7 @@ function CapTshirt() {
     <div className=" px-[20px] md:px-[40px] lg:px-[151px] h-auto py-[50px] md:py-[80px] lg:py-[100px] bg-white">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
         <div className="flex flex-col justify-center">
-          <div className="md:pt-20 heroText text-[#272312] text-[40px] leading-[50px] md:text-[80px] md:leading-[100px] lg:text-[100px] lg:leading-[120px]">
+          <div className="md:pt-20 lg:pt-0 heroText text-[#272312] text-[40px] leading-[50px] md:text-[80px] md:leading-[100px] lg:text-[100px] lg:leading-[120px]">
             Future <br />
             Looks <br /> Bright
           </div>
