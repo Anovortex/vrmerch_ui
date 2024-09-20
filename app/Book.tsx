@@ -4,7 +4,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 function Book() {
   return (
-    <div className=" pt-20 px-10 lg:px-20 xl:px-40 h-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 bg-[#111111] items-center">
+    <div className=" lg:h-[852px] pt-20 px-10 lg:px-20 xl:px-40 h-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 bg-[#111111] items-center">
       <div className="flex flex-col justify-center">
         <div className="font-montserrat text-white uppercase text-left text-[32px] lg:text-[49px] leading-tight">
           Patrick Bet-David's <br />
