@@ -18,8 +18,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <SectionProduct />
-      {/* <Book />
-      <RandomDude />
+      <Book />
+      {/*<RandomDude />
       <ShopCollection />
       <NewArrivals />
       <CapTshirt />
