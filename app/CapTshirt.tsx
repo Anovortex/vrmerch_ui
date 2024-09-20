@@ -18,14 +18,14 @@ const capsData = [
 ];
 function CapTshirt() {
   return (
-    <div className="px-[151px] h-[679px] py-[100px] bg-white">
-      <div className="grid grid-cols-2">
-        <div className="flex flex-col justify-center ">
-          <div className="heroText text-[#272312] text-[100px] leading-[120px]">
+    <div className="px-[20px] md:px-[40px] lg:px-[151px] h-auto py-[50px] md:py-[80px] lg:py-[100px] bg-white">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+        <div className="flex flex-col justify-center">
+          <div className="heroText text-[#272312] text-[40px] leading-[50px] md:text-[80px] md:leading-[100px] lg:text-[100px] lg:leading-[120px]">
             Future <br />
             Looks <br /> Bright
           </div>
-          <div className="uppercase text-[50px] font-montserrat-italic">
+          <div className="uppercase text-[30px] md:text-[40px] lg:text-[50px] font-montserrat-italic mt-5 md:mt-8">
             <span className="text-[#7F1BCD] font-[600]">Purple</span>{" "}
             <span className="font-[275] text-black">&</span> <br />
             <span className="text-[#E0A408] font-[700]">gold</span>{" "}
@@ -34,7 +34,9 @@ function CapTshirt() {
             </span>
           </div>
         </div>
-        <CapTshirtImg caps={capsData} />
+        <div className="flex justify-center lg:justify-end">
+          <CapTshirtImg caps={capsData} />
+        </div>
       </div>
     </div>
   );

@@ -22,8 +22,8 @@ export default function Home() {
       <RandomDude />
       <ShopCollection />
       <NewArrivals />
-      {/*<CapTshirt />
-      <Belief />
+      <CapTshirt />
+      {/*<Belief />
       <BagCart />
       <Newsletter />
       <Footer /> */}
