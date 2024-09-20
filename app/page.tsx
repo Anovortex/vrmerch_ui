@@ -26,7 +26,7 @@ export default function Home() {
       <Belief />
       <BagCart />
       <Newsletter />
-      {/*<Footer /> */}
+      <Footer />
     </div>
   );
 }

@@ -14,20 +14,20 @@ import AE2 from "../public/Icon/amex 1.svg";
 
 function Footer() {
   return (
-    <div className=" bg-black px-36 py-12 h-[748px]">
-      <div className=" flex flex-row items-center md:gap-5 gap-2  pt-5  ">
+    <div className="h-auto bg-black px-36 py-12 lg:h-[748px]">
+      <div className="pb-5 lg:pb-5 flex flex-row items-center md:gap-5 gap-2  pt-5  ">
         <LogoVE className="lg:w-20 lg:h-20 md:w-32 md:h-32 fill-[#EA2127] " />
-        <div className="logoText lg:text-[100px] md:text-[60px] text-[20px]">
+        <div className="logoText  lg:text-[100px] md:text-[60px] text-[20px]">
           VTMERCH
         </div>
       </div>
-      <div className="border-t border-gray-300 opacity-50 w-full "></div>
-      <div className="grid grid-cols-6 gap-4">
+      <div className="border-t  border-gray-300 opacity-50 w-full "></div>
+      <div className="grid lg:grid-cols-6 gap-4">
         <div className="col-span-3">
           {" "}
           <Subscribe />
         </div>
-        <div className="col-span-1">
+        <div className="lg:col-span-1 row-span-1">
           {" "}
           <CustomerService />
         </div>{" "}
