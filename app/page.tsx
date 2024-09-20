@@ -17,8 +17,8 @@ export default function Home() {
     <div className=" md:overflow-visible ">
       <Navbar />
       <Hero />
-      {/* <SectionProduct />
-      <Book />
+      <SectionProduct />
+      {/* <Book />
       <RandomDude />
       <ShopCollection />
       <NewArrivals />

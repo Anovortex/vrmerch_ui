@@ -14,11 +14,11 @@ interface CapsProps {
 
 function Caps({ caps }: CapsProps) {
   return (
-    <div className="flex flex-wrap gap-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-left">
       {caps.map((cap, index) => (
         <div
           key={index}
-          className="w-[386.5px] h-[458px] bg-white rounded-[12px] z-20 object-fill"
+          className=" w-[286.8px] h-[358px] lg:w-[386.5px] lg:h-[458px] bg-white rounded-[12px] z-20 object-fill items-center mx-auto"
         >
           <div>
             <Image
@@ -26,7 +26,7 @@ function Caps({ caps }: CapsProps) {
               height={1000}
               alt={cap.itemName}
               src={cap.itemImage}
-              className="rounded-[8px] w-[354.5px] h-[333px] mx-auto mt-[16px]"
+              className="rounded-[8px] w-[254.5px] h-[233px] lg:w-[354.5px] lg:h-[333px] mx-auto mt-[16px]"
             />
           </div>
           <div className="pt-[29px] pl-[16px] font-[600]">

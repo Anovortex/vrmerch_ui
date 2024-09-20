@@ -34,17 +34,17 @@ const capsData = [
 
 function SectionProduct() {
   return (
-    <div className="bg-[#F6F5F5] relative mt-[400px] w-full h-[877px] text-black flex flex-col gap-12 justify-center pl-[150px]  ">
-      <div className="py-[148px]">
-        <div className="promo-text text-center pb-[48px]">
+    <div className="bg-[#F6F5F5] relative mt-[400px] w-full h-auto text-black grid  md:grid-cols-2 lg:grid-cols-4 justify-center text-center lg:text-left items-center mx-auto lg:pl-[150px]">
+      <div className=" py-[48px] md:py-[48px] lg:py-[48px] col-span-1 md:col-span-2 lg:col-span-4">
+        <div className="font-montserrat uppercase pb-[48px] lg:leading-[84px] lg:tracking-[0.5px] text-wrap text-5xl md:text-6xl lg:text-7xl font-semibold">
           Buy 1 get 1 Free <br />
           on
-          <span className="promo-outline text-[#F6F5F5] text-nowrap">
+          <span className="font-montserrat text-[#F6F5F5] text-outline">
             {" "}
             best selling products
           </span>
         </div>
-        <Caps caps={capsData} />;
+        <Caps caps={capsData} />
       </div>
     </div>
   );

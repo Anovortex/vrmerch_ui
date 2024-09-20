@@ -55,16 +55,6 @@
   text-align: left;
 }
 
-.promo-text {
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-  line-height: 84px;
-  letter-spacing: 0.5px;
-  text-align: left;
-  font-size: 70px;
-  font-weight: 600;
-}
-
 .text-outline {
   text-shadow: -1px -1px 0 #272312, 1px -1px 0 #272312, -1px 1px 0 #272312,
     1px 1px 0 #272312;
