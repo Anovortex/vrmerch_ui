@@ -24,8 +24,8 @@ export default function Home() {
       <NewArrivals />
       <CapTshirt />
       <Belief />
-      {/*<BagCart />
-      <Newsletter />
+      <BagCart />
+      {/*<Newsletter />
       <Footer /> */}
     </div>
   );
