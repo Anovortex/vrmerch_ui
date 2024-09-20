@@ -18,7 +18,7 @@ function Product() {
   };
 
   return (
-    <div className=" h-full lg:h-[519px] px-10 lg:px-0 text-center lg:text-left">
+    <div className=" bg-[#F6F5F5] h-full lg:h-[519px] px-10 lg:px-0 text-center lg:text-left">
       <div className="font-medium text-[#060606] product-tag text-[32px] leading-9 tracking-[0.5%] lg:text-nowrap text-wrap ">
         Premium Valuetainment Leather Backpack
       </div>
@@ -80,7 +80,7 @@ function Product() {
           BUY IT NOW
         </button>
       </div>{" "}
-      <div className=" items-center pt-8 flex flex-row gap-3 text-black text-xl leading-6 tracking-[0.5%] font-medium cursor-pointer md:mx-10 lg:mx-0">
+      <div className="  items-center pt-8 flex flex-row gap-3 text-black text-xl leading-6 tracking-[0.5%] font-medium cursor-pointer md:mx-10 lg:mx-0">
         Share:
         <FaFacebookF />
         <FaTwitter />
