@@ -19,8 +19,8 @@ export default function Home() {
       <Hero />
       <SectionProduct />
       <Book />
-      {/*<RandomDude />
-      <ShopCollection />
+      <RandomDude />
+      {/*<ShopCollection />
       <NewArrivals />
       <CapTshirt />
       <Belief />
